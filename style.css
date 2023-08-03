@@ -1,0 +1,104 @@
+
+/* styles.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; /* Menggunakan font Roboto */
+  background-color: #B7CADB;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.navbar-logo img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar-links a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.mission-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.mission-title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.mission-content {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.icon-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-text-container i {
+  font-size: 42px; /* Ubah ukuran ikon di Tenaga Kerja */
+  margin-bottom: 10px;
+}
+
+.icon-text-container span {
+  font-size: 24px; /* Ubah ukuran teks di Tenaga Kerja */
+}
+
+.footer {
+  background-color: #B7CADB;
+  padding: 20px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-intro {
+  font-size: 14px;
+  flex: 1;
+}
+
+.footer-images {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-images img {
+  max-width: 80px;
+  margin: 0 5px;
+}
+
+.footer-divider {
+  width: 100%;
+  border-top: 1px solid #ccc;
+  margin: 15px 0;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  text-align: right;
+}
